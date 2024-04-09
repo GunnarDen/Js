@@ -1,8 +1,11 @@
-const money = 40;
-const canBay = money > 50;
+const summa = 12000;
+const tax = 0.07;
+const cash = summa * (1 + tax)^24;
 
-if (canBay) {
-    console.log('Сможет купить ')
-} else {
-    console.log('Не может купить')  
+console.log(cash)
+
+if (cash >= 13500) {
+    console.log('Покупаем!')
+} else if (cash < 13500) {
+    console.log('Не хватает средств')
 }
