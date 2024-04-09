@@ -1,6 +1,6 @@
 const summa = 12000;
 const tax = 0.07;
-const cash = summa * (1 + tax)^24;
+const cash = summa * (1 + tax / 12 ) ** 24;
 
 console.log(cash)
 
