@@ -1,6 +1,8 @@
-const payRateUSD = 80;
-const projectHours = 40;
-const availableHours = (11 - 2) * 5;
+const money = 40;
+const canBay = money > 50;
 
-console.log('Смогу ли я работать? ' + (availableHours >= projectHours));
-console.log('Стоимость работ: ' + projectHours * payRateUSD + '$');
+if (canBay) {
+    console.log('Сможет купить ')
+} else {
+    console.log('Не может купить')  
+}
